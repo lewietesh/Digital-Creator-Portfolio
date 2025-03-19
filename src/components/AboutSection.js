@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const About = () => {
+const AboutSection = () => {
   const [aboutData, setAboutData] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -25,27 +25,20 @@ const About = () => {
     <div className="about wow fadeInUp" id="about">
       <div className="container-fluid">
         <div className="row align-items-center">
-          {/* Left Image Section */}
           <div className="col-lg-6">
             <div className="about-img">
               <img src={aboutData.profileImage} alt="Profile" />
             </div>
           </div>
-
-          {/* Right Content Section */}
           <div className="col-lg-6">
             <div className="about-content">
               <div className="section-header text-left">
                 <p>Learn About Me</p>
                 <h2>{aboutData.professionalTitle}</h2>
               </div>
-
-              {/* Short Bio */}
               <div className="about-text">
                 <p>{aboutData.shortBio}</p>
               </div>
-
-              {/* Skills */}
               <div className="skills">
                 {aboutData.skills.map((skill, index) => (
                   <div key={index} className="skill-item">
@@ -59,8 +52,6 @@ const About = () => {
                   </div>
                 ))}
               </div>
-
-              {/* Certifications */}
               <div className="certifications">
                 <h3>Certifications</h3>
                 <ul>
@@ -69,8 +60,6 @@ const About = () => {
                   ))}
                 </ul>
               </div>
-
-              {/* Button */}
               <a className="btn" href="/">Back to Home</a>
             </div>
           </div>
@@ -80,4 +69,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

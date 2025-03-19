@@ -916,6 +916,26 @@ a:focus {
     color: rgba(256, 256, 256, .5);
 }
 
+.testimonials-carousel {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.testimonial-item {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: opacity 0.8s ease-in-out;
+  display: none;
+}
+
+.testimonial-item:first-child {
+  display: block;
+}
+
+
 .testimonial .testimonial-item {
     position: relative;
     margin: 0 15px;

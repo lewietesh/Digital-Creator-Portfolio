@@ -1,0 +1,43 @@
+{
+        "sectionTitle": "My Projects",
+        "sectionSubtitle": "",
+        "categories": [
+          { "name": "All", "filter": "*" },
+          { "name": "Websites", "filter": ".filter-1" },
+          { "name": "Web Applications", "filter": ".filter-2" },
+          { "name": "Scripts", "filter": ".filter-3" }
+        ],
+        "projects": [
+          {
+            "title": "EUFID Website",
+            "image": "img/portfolio.jpeg",
+            "category": "filter-1"
+          },
+          {
+            "title": "E-Commerce Website",
+            "image": "img/ecom/1.png",
+            "category": "filter-2"
+          },
+          {
+            "title": "Project AfyaTrack",
+            "image": "img/afyatrack/nine.jpeg",
+            "category": "filter-3"
+          },
+          {
+            "title": "Project Blogpedia",
+            "image": "img/portfolio-4.jpg",
+            "category": "filter-1"
+          },
+          {
+            "title": "Social Mobile Apps",
+            "image": "img/portfolio-5.jpg",
+            "category": "filter-2"
+          },
+          {
+            "title": "Yetulink Application",
+            "image": "img/portfolio-6.jpg",
+            "category": "filter-3"
+          }
+        ]
+      }
+      

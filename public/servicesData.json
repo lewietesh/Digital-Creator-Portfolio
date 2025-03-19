@@ -1,0 +1,27 @@
+{
+        "sectionTitle": "Awesome Quality Services",
+        "sectionSubtitle": "What I Do",
+        "services": [
+          {
+            "title": "Web Development",
+            "description": "Creating stunning, responsive and efficient web applications.",
+            "icon": "fa fa-laptop"
+          },
+          {
+            "title": "Application Design and Development",
+            "description": "Planning, analysis, design, development & implementation, testing & deployment processes.",
+            "icon": "fas fa-mobile"
+          },
+          {
+            "title": "API Development",
+            "description": "Integrating external REST APIs into applications.",
+            "icon": "fas fa-bezier-curve"
+          },
+          {
+            "title": "Database Administration",
+            "description": "Capacity planning, installation, configuration, migration, performance monitoring, security, troubleshooting, and backup recovery.",
+            "icon": "fas fa-database"
+          }
+        ]
+      }
+      

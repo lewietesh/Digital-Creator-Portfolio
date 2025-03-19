@@ -3,11 +3,10 @@
         "links": [
           { "label": "Home", "href": "/", "active": true },
           { "label": "About", "href": "/about", "active": false },
-          { "label": "Service", "href": "#service", "active": false },
-          { "label": "Experience", "href": "#experience", "active": false },
-          { "label": "Portfolio", "href": "#portfolio", "active": false },
-          { "label": "Review", "href": "#review", "active": false },
-          { "label": "Contact", "href": "#contact", "active": false }
+          { "label": "Service", "href": "/services", "active": false },
+          { "label": "Experience", "href": "/projects", "active": false },
+          { "label": "Testimonials", "href": "/testimonials", "active": false },
+          { "label": "Contact", "href": "/contact", "active": false }
         ]
       }
       

@@ -15,14 +15,20 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    fetch("/navbarData.json")
-      .then((response) => response.json())
+    fetch(`${process.env.PUBLIC_URL}/navbarData.json`)
+      .then((response) => {
+        console.log("Navbar Fetch Response:", response); // Debugging
+        return response.json();
+      })
       .then((data) => {
+        console.log("Navbar Data Loaded:", data); // Debugging
         setNavLinks(data.links || []);
         setLogo(data.logo || "");
       })
       .catch((error) => console.error("Error fetching navbar data:", error));
   }, []);
+   
+  
 
   return (
     <nav className={`navbar navbar-expand-lg ${navSticky ? "nav-sticky bg-white shadow-sm" : "bg-light"} navbar-light`}>
@@ -39,9 +45,13 @@ const Navbar = () => {
           <div className="navbar-nav ml-auto">
             {navLinks.length > 0 ? (
               navLinks.map((link, index) => (
-                <Link key={index} to={link.href} className={`nav-item nav-link ${link.active ? "active" : ""}`}>
-                  {link.label}
-                </Link>
+                link.href.startsWith("/") ? (
+                  <Link key={index} to={link.href} className={`nav-item nav-link ${link.active ? "active" : ""}`}>
+                    {link.label}
+                  </Link>
+                ) : (
+                  <a key={index} href={link.href} className="nav-item nav-link">{link.label}</a>
+                )
               ))
             ) : (
               <p>Loading links...</p>
