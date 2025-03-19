@@ -1,0 +1,20 @@
+{
+        "profileImage": "/img/dev.png",
+        "fullName": "John Doe",
+        "professionalTitle": "Full-Stack Developer",
+        "fieldOfExpertise": "Software Development & Web Engineering",
+        "shortBio": "An ingenious, ambitious and result-oriented software engineer with experience in full-stack web development. Skilled in building scalable applications, API integrations, and optimizing web performance.",
+        "skills": [
+          { "name": "Front-End (HTML, CSS, JS, React, jQuery)", "percentage": 85 },
+          { "name": "PHP (Laravel, CodeIgniter) & Python (Django, Flask)", "percentage": 95 },
+          { "name": "CISCO CCNA Networking", "percentage": 90 },
+          { "name": "SQL & No-SQL Databases", "percentage": 85 },
+          { "name": "REST API Development, Java & C++", "percentage": 85 }
+        ],
+        "certifications": [
+          "Certified Web Developer - Google",
+          "AWS Certified Solutions Architect",
+          "CISCO CCNA Certification"
+        ]
+      }
+      

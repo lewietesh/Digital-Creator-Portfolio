@@ -1,0 +1,13 @@
+{
+        "logo": "https://cdn.pixabay.com/photo/2023/10/18/22/46/deer-8325201_1280.png",
+        "links": [
+          { "label": "Home", "href": "/", "active": true },
+          { "label": "About", "href": "/about", "active": false },
+          { "label": "Service", "href": "#service", "active": false },
+          { "label": "Experience", "href": "#experience", "active": false },
+          { "label": "Portfolio", "href": "#portfolio", "active": false },
+          { "label": "Review", "href": "#review", "active": false },
+          { "label": "Contact", "href": "#contact", "active": false }
+        ]
+      }
+      
