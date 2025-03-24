@@ -34,6 +34,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   <i className={social.icon}></i>
+                  
                 </a>
               ))}
             </div>
